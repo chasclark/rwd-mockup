@@ -106,19 +106,19 @@ header {
 
 /* main-content styles */
 
-.main-content {
+#main-content {
 	text-align: center;
 	background: white;
 	padding: 2rem 0 1rem;
 	}
 
-.main-content h2 {
+#main-content h2 {
 	padding: .7rem 0 2rem;
 	margin: 0;
 	text-transform: uppercase;	
 	}
 
-.main-content p {
+#main-content p {
 	font-size: 1.2rem;
 	margin: 0;
 	}
@@ -227,7 +227,7 @@ footer p {
 		.project {
 			width: 50%;
 			float: left;
-			padding: 0 auto 3rem;
+			padding: 0 10px 3rem;
 			}
 			
 		.project:nth-child(even) {
